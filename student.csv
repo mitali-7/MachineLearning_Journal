@@ -1,0 +1,15 @@
+id,name,age,department,marks
+1,Alice,20,CS,85
+2,Bob,21,IT,78
+3,Charlie,19,CS,92
+4,David,22,EE,74
+5,Eva,20,ME,88
+6,Frank,21,IT,81
+7,Grace,19,CS,90
+8,Helen,22,EE,76
+9,Ian,20,ME,84
+10,Jenny,21,CS,89
+11,Cassandra,,ME,84
+12,Mike,23,,79
+13,Abigail,,,90
+
