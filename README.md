@@ -1,49 +1,35 @@
-# MachineLearning_Journal
+# Machine Learning Journal
 
-A repository containing my hands on ML & DL implementations, notes, and mini projects built while learning core concepts.
+A repository documenting my hands on journey through Machine Learning and Deep Learning. This journal contains core concept implementations, data analysis experiments, and mini projects built from scratch.
 
-It includes Python notebooks for fundamentals, data analysis, feature engineering, and initial ML models, along with small Flask and Streamlit demo apps.
+*Note: This repository is actively updated as I implement new algorithms and explore advanced AI/ML topics.*
 
-Note: This repo is actively updated as I progress through new ML/DL topics and algorithms.
-
----
-
-## Tech Stack & Libraries
-- Python
-- NumPy, Pandas
-- Matplotlib
-- Scikit-learn
-- Flask
-- Streamlit
+### Tech Stack & Libraries
+* **Languages & Core:** Python, NumPy, Pandas
+* **Visualization:** Matplotlib
+* **Machine Learning:** Scikit-learn, XGBoost
+* **Deployment/Web:** Flask, Streamlit
 
 ---
 
-## Repository Contents (Currently)
+### Repository Contents
 
-### Python + Data Analysis Notebooks
-- `basics.ipynb` - Python fundamentals and core practice  
-- `data_analysis.ipynb` - Data analysis using NumPy + Pandas  
-- `eda.ipynb` - Exploratory Data Analysis (EDA) practice  
-- `feature_eng.ipynb` - Feature engineering techniques (missing values, encoding, scaling, SMOTE, etc.)  
-- `linear_regr.ipynb` - Linear Regression implementation and training  
+#### 1. Data Processing & EDA
+* `basics.ipynb` - Python fundamentals and core practice
+* `data_analysis.ipynb` - Data manipulation with NumPy & Pandas
+* `eda.ipynb` - Exploratory Data Analysis techniques
+* `feature_eng.ipynb` - Handling missing values, encoding, scaling, and SMOTE
+* `PCA.ipynb` - Dimensionality reduction using Principal Component Analysis
 
----
+#### 2. Supervised Learning
+* **Regression:** `linear_regr.ipynb`, `multi_linear_regr.ipynb`, `ForestFireIndex_model.ipynb`
+* **Classification:** `LogisticRegr.ipynb`, `KNN_Classification.ipynb`, `NaiveBayes.ipynb`, `SVM_Classifier.ipynb`
+* **Tree & Ensemble Methods:** `DecisionTree.ipynb`, `RandomForest.ipynb`, `XGBoost.ipynb`
 
-### Flask Demo App
-- `flaskapp.py` - Flask application  
-- `templates/` - HTML templates used in Flask app for `render_template()`  
-  - `index.html`  
-  - `form.html`  
-  - `marks_form.html`  
-  - `result.html`  
-  - `forifres.html`  
+#### 3. Unsupervised Learning & Anomaly Detection
+* **Clustering:** `KMeans.ipynb`, `HeirarchicalCLustering.ipynb`, `DBSCAN.ipynb`
+* **Anomaly Detection:** `IsolationForest.ipynb`
 
----
-
-### Streamlit Demo Apps
-- `streamlitapp.py` - Streamlit app demo  
-
----
-
-### Requirements
-- `requirements.txt` - Python dependencies
+#### 4. Applied Projects & Demos
+* **Flask App:** `flaskapp.py` (with corresponding HTML templates in `/templates`)
+* **Streamlit App:** `streamlitapp.py` 
